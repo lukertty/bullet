@@ -79,7 +79,8 @@ module Bullet
     end
 
     def active_record52?
-      active_record5? && ::ActiveRecord::VERSION::MINOR == 2
+      true
+      # active_record5? && ::ActiveRecord::VERSION::MINOR == 2
     end
 
     def mongoid4x?
